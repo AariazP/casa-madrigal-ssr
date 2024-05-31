@@ -8,12 +8,14 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    
 }
 
 #btn-escribenos button{
     background-color: RGB(246,85,137);
     color: white;
     font-family: 'Montserrat';
+    border-color: RGB(246,85,137);
 }
 
 #btn-escribenos button:hover{

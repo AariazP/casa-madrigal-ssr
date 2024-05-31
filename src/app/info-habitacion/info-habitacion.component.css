@@ -10,6 +10,7 @@
 button{
     background-color: RGB(246, 85, 137);
     margin-top: 30px;
+    border-color: RGB(246, 85, 137);
 }
 
 button:hover{
