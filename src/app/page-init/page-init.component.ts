@@ -1,0 +1,23 @@
+import { Component } from '@angular/core';
+import { ContactenosComponent } from '../contactenos/contactenos.component';
+import { DoFilandiaComponent } from '../do-filandia/do-filandia.component';
+import { HeadComponent } from '../head/head.component';
+import { InfoComponent } from '../info/info.component';
+import { CarrouselComponent } from '../carrousel/carrousel.component';
+
+@Component({
+  selector: 'app-page-init',
+  standalone: true,
+  imports: [
+    ContactenosComponent, 
+        DoFilandiaComponent, 
+        HeadComponent, 
+        InfoComponent,
+        CarrouselComponent
+  ],
+  templateUrl: './page-init.component.html',
+  styleUrl: './page-init.component.css'
+})
+export class PageInitComponent {
+
+}
